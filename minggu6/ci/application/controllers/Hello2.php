@@ -1,6 +1,8 @@
 <?php
 class Hello extends CI_Controller{
 	public function index(){
+		
+		$data = ['nama'=>'Desy Nur Alviah', 'nim'=>'E31191272', 'golongan'=>'MIF B'];
 		//c3 - memuat model 'Hello model'
 		$this->load->model('Hello_model');
 
